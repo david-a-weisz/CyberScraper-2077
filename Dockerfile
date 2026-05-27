@@ -1,5 +1,5 @@
 # Use Python 3.12 for better performance and compatibility
-FROM python:3.14-slim
+FROM python:3.14-slim-bookworm
 
 # Set the working directory in the container
 WORKDIR /app
